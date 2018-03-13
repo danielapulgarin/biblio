@@ -1,0 +1,171 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background: STEELBLUE;
+  overflow: hidden;
+}
+header{
+  width: 96%;
+  background: lavender;
+  float:left;
+  margin-top: 15px;
+  margin-left: 30px;
+  border-radius: 5px;
+}
+
+#TL{
+	width: 99.3%;
+	height: 20%;
+	background: slategray;
+	margin:5px;
+  border-radius: 5px;
+}
+
+#TL img{
+  margin-top: 20px;
+}
+
+#logo{
+	width: 150PX;
+	height: 150PX;
+	float: right;
+	margin: 7px;
+	border-radius: 150px;
+}
+
+#logo img{
+  margin: auto;
+  margin-right: 3px;
+  border: 2px solid ;
+  border-radius: 150px;
+}
+
+#menu{
+	width: 99.3%;
+	height: 60px;
+	background: darkgray;
+	margin: 5px;
+  border-radius: 5px;
+}
+
+#menu ul{
+  list-style: none;
+  float: left;
+}
+
+#menu ul li a{
+  background-color: darkgray;
+  text-decoration: none;
+  color: black;
+  padding: 21px 20px;
+  display: block;
+  border-radius: 5px;
+}
+
+#menu > ul > li{
+  float: left;
+}
+
+#menu li a:hover{
+	background: gray;
+  color: white;
+}
+
+
+/*CUERPO*/
+#cuerpo{
+	width: 97%;
+	background: STEELBLUE;
+	float: left;
+	margin-top: 5px;
+	margin-left: 30px;
+  margin-right: 30px;
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+
+#tart{
+  width: 99.5%;
+  height: 40px;
+  padding-top: 15px;
+  margin: 3px 2px 6px 2px;
+  background: white;
+  border-radius: 5px;
+  font-size: 30px;
+  border: solid 1px;
+}
+
+#infart{
+  width: 96.5%;
+  height: 380px;
+  background: lightgray;
+  margin: 4px 6px 4px 1px;
+  float: left;
+  padding: 8px;
+  border-radius: 5px;
+  border: solid 1px;
+  font-size: 25px;
+}
+
+#tart2{
+  width: 99.5%;
+  height: 40px;
+  padding-top: 15px;
+  margin: 3px 2px 6px 2px;
+  background: white;
+  border-radius: 5px;
+  font-size: 30px;
+  border: solid 1px;
+  text-align: center;
+}
+
+#form{
+    margin-left: 400px;
+}
+
+#dc{
+  text-align: center;
+}
+
+input{
+  width: 300px;
+  height: 30px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+#b{
+  width: 100px;
+  height: 25px;
+  margin-top: 20px;
+  margin-left: 60px;
+  text-align: center;
+}
+
+footer{
+	width: 96%;
+	height: 40px;
+	background: -webkit-linear-gradient(bottom left,gray,darkgray,darkgray,silver,azure,ghostwhite);
+	float: left;
+	margin: 15px 50px 15px 20px;
+
+}
+
+#footer{
+  padding-top: 11px;
+  text-align: center;
+}
+
+
+@query screen and (max-width: 500){
+  #container{
+    width: 50%;
+  }
+  #TL{
+    width: 40%;
+  }
+}
